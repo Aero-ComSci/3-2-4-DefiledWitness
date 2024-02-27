@@ -12,3 +12,4 @@
 [logo]: https://github.com/BaeztheProg/Activity313/blob/main/images/EmeraldHS_NEWCircleMark.jpg "EHS Logo"
 
 
+![image](https://github.com/Aero-ComSci/3-2-4-DefiledWitness/assets/153687623/d0ce6cf3-d81e-4e63-8d58-4a5d9f22aee0)
