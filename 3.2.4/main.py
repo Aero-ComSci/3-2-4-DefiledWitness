@@ -23,29 +23,25 @@ test_student2.add_course(phys_ed)
 test_student2.add_course(science)
 test_student2.add_course(history)
 
-# TODO Add a third test student and assign them four classes
+
 test_student3 = Student("Billy", "Bob")
 test_student3.add_course(spanish)
 test_student3.add_course(math)
 test_student3.add_course(computer_sci)
 test_student3.add_course(history)
 
-# TODO Add all the test students to a list of your own creation
 Students = [test_student, test_student2, test_student3]
 
-# TODO print student_list
 for i in range(len(Students)):
     print(Students[i])
-
-# TODO iterate over each of the students in the list and print their names and course schedules.
-    # Each iteration should:
-        # print the student
-
     
 for i in range(len(Students)):
-    print(Students[i].get_first_name, Students[i].get_first_name)
-    for i in Students[i].courses:
-        print("".join(Co)
+    print(f"\n Schedule of {Students[i].get_first_name()} {Students[i].get_last_name()}: \n")
+    for course in Students[i].courses:
+        print(course)
+print("\n \n") #To seperate functions
+for student in Students:
+    print(student.get_name())
 
 """
  for this part you may need to review the other skeleton code to:
