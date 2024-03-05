@@ -13,7 +13,7 @@ class Student:
     
     def __str__(self):
         
-        course_list = []
+        course_list = ""
         for course in self.courses:
             course_list += "\n\t" + str(course)
         return f"student ID: {self.student_id} and Name: {self.first_name} {self.last_name} and Courses:{course_list}"
@@ -30,3 +30,7 @@ class Student:
     def add_course(self, new_course):
         self.courses.append(new_course)
         #print ("Complete this based on what the program is doing here.")
+    
+    def get_name(self):
+        returned = (f"{self.first_name} {self.last_name}")
+        return returned
